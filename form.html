@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Website</a></h1>
+    </header>
+    <br />
+    <!-- Koristam <a> tag linkovi za sidebar  -->
+    <nav>
+      <a href="/home/">HOME</a>
+      <a href="/about/">ABOUT</a>
+      <a href="/services/">SERVICES</a>
+      <a href="/contact/">CONTACT</a>
+    </nav>
+    <br />
+    <main>
+      <form>
+        <div>
+          <label for="fName">Full Name</label>
+          <input type="text" id="fName" name="fName" placeholder="Full Name" />
+        </div>
+        <br />
+        <div>
+          <label for="eMail">Email Address</label>
+          <input type="email" id="eMail" name="eMail" placeholder="Email" />
+        </div>
+        <br />
+        <div>
+          <label for="pass">Password</label>
+          <input type="password" id="pass" name="pass" placeholder="Password" />
+        </div>
+        <br />
+        <!-- Za ovaa opcija povekje odgovara <select>, koristam <radio> za <select> da iskoristam za City -->
+        <div>
+          <label for="ageGr">Age Group</label><br />
+          <input type="radio" name="ageGr" /><label>Bellow 18</label><br />
+          <input type="radio" name="ageGr" /><label>18-64</label><br />
+          <input type="radio" name="ageGr" /><label>Above 64</label><br />
+        </div>
+        <br />
+        <div>
+          <label for="city">City</label>
+          <select>
+            <option>Skopje</option>
+            <option>Kumanovo</option>
+            <option>Tetovo</option>
+            <option>Veles</option>
+            <option>Stip</option>
+            <option>Prilep</option>
+            <option>Ohrid</option>
+            <option>Bitola</option>
+            <option>Strumica</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="trans">Transport</label><br />
+          <input type="checkbox" name="trans" /><label>Bus</label><br />
+          <input type="checkbox" name="trans" /><label>Train</label><br />
+          <input type="checkbox" name="trans" /><label>Car</label><br />
+          <input type="checkbox" name="trans" /><label>Bike</label><br />
+          <input type="checkbox" name="trans" /><label>Bicycle</label><br />
+        </div>
+        <br />
+        <div>
+          <input type="submit" />
+          <input type="reset" />
+          <button>Cancel</button>
+        </div>
+      </form>
+      <!-- Oznakite znacat ageGr - Age Group, pass - Password, fName - Full Name, trans - Transport -->
+    </main>
+    <br />
+    <footer>
+      <a href="https://github.com/acedur" target="_blank"
+        >Aleksandar Duranovski</a
+      >&copy; 2022
+    </footer>
+  </body>
+</html>
