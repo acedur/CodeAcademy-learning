@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table-Form</title>
+  </head>
+  <body>
+    <table>
+    <tr>
+      <td colspan="3"><h1>My Website</h1></td>
+    </tr>
+     <!-- Koristam <a> tag linkovi za sidebar -->
+    <tr>
+        <td>
+        <div>
+            <!-- SIDEBAR -->
+            <ul>
+                <li><a href="/home/">HOME</a></li>
+                <li><a href="/about/">ABOUT</a></li>
+                <li><a href="/services/">SERVICES</a></li>
+                <li><a href="/contact/">CONTACT</a></li>
+            </ul>
+        </div>
+        </td>
+    <main>
+      <form>
+        <td colspan="2">
+            <!-- NAME -->
+        <div>
+          <label for="fName"><h3>Full Name</h3></label>
+          <input type="text" id="fName" name="fName" placeholder="Full Name" />
+        </div>
+        <!-- EMAIL -->
+        <div>
+          <label for="eMail"><h3>Email Address</h3></label>
+          <input type="email" id="eMail" name="eMail" placeholder="Email" />
+        </div>
+        <!-- PASSWORD -->
+        <div>
+          <label for="pass"><h3>Password</h3></label>
+          <input type="password" id="pass" name="pass" placeholder="Password" />
+        </div>
+        <!-- AGE GROUP -->
+        <!-- Za ovaa opcija povekje odgovara <select>, koristam <radio> za <select> da iskoristam za City -->
+        <div>
+          <label for="ageGr"><h3>Age Group</h3></label>
+          <input type="radio" name="ageGr" /><label>Bellow 18</label>
+          <input type="radio" name="ageGr" /><label>18-64</label>
+          <input type="radio" name="ageGr" /><label>Above 64</label>
+        </div>
+        <!-- CITY -->
+        <div>
+          <label for="city"><h3>City</h3></label>
+          <select>
+            <option>Skopje</option>
+            <option>Kumanovo</option>
+            <option>Tetovo</option>
+            <option>Veles</option>
+            <option>Stip</option>
+            <option>Prilep</option>
+            <option>Ohrid</option>
+            <option>Bitola</option>
+            <option>Strumica</option>
+          </select>
+        </div>
+        <!-- TRANSPORT -->
+        <div>
+          <label for="trans"><h3>Transport</h3></label>
+          <input type="checkbox" name="trans" /><label>Bus</label>
+          <input type="checkbox" name="trans" /><label>Train</label>
+          <input type="checkbox" name="trans" /><label>Car</label>
+          <input type="checkbox" name="trans" /><label>Bike</label>
+          <input type="checkbox" name="trans" /><label>Bicycle</label>
+        </div><br/><br/>
+        <!-- BUTTONS -->
+        <div>
+          <input type="submit" />
+          <input type="reset" />
+          <button>Cancel</button>
+        </div><br/>
+      </form>
+    </td>
+      <!-- Oznakite znacat ageGr - Age Group, pass - Password, fName - Full Name, trans - Transport, gi stavam vo eden red, podobro izgledaat -->
+      <!-- samo dodadov td za da dobijam tabelaren izgled na form -->
+    </main>
+</tr>
+    <tr>
+        <td colspan="3">
+    <footer>
+      <a href="https://github.com/acedur" target="_blank"
+        >Aleksandar Duranovski</a
+      >&copy; 2022
+    </footer>
+</td>
+</tr>
+    </table>
+  </body>
+</html>
