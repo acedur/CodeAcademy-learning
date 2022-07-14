@@ -1,0 +1,65 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    background-image: url(/autobiography/images/grey-oak-tree.png);
+    background-repeat: no-repeat;
+    background-position: top-left;
+    background-size: 65%;
+    background-attachment: fixed;
+}
+/* vo body gi staviv opstite deklaracii, a vo sekoj od id se unikatnite  */
+#header1{
+    color: aquamarine;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    font-size: 400%;
+    font-variant: small-caps;
+    padding-bottom: 5%;
+}
+#paragraph1{
+    color: rgb(214, 213, 129);
+    text-align: left;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 250%;
+    text-transform: capitalize;
+}
+#paragraph2{
+    color: blanchedalmond;
+    text-align: right;
+    font-style: oblique;
+    font-weight:500; 
+    font-size: 200%;
+    text-transform: lowercase;
+}
+#paragraph3{
+    color:antiquewhite;
+    text-align:justify;
+    font-style: italic;
+    font-weight:300; 
+    font-size: 150%;
+    text-decoration: underline;
+    text-decoration-color:rgb(71, 233, 65);
+}
+#paragraph4{
+    color: azure;
+    text-align:end;
+    font-style: normal;
+    font-weight:lighter; 
+    font-size: 100%;
+    text-transform: uppercase;
+}
+#footer1{
+    color: beige;
+    text-align:center;
+    font-style:oblique;
+    font-weight: bolder; 
+    font-size: 150%;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-shadow: 2px 2px 5px red;
+    padding: 50px;
+}
