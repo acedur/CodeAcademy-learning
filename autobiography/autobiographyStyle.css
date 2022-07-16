@@ -3,8 +3,7 @@ body{
     background-color: black;
     background-image: url(/autobiography/images/grey-oak-tree.png);
     background-repeat: no-repeat;
-    background-position: top-left;
-    background-size: 65%;
+    background-position: top left;
     background-attachment: fixed;
 }
 /* vo body gi staviv opstite deklaracii, a vo sekoj od id se unikatnite  */
