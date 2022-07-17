@@ -1,0 +1,168 @@
+/* animaciite se po pravilo najgore */
+/* animacija za zolt kvadrat */
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+/* animacija za rozev kvadrat */
+@keyframes pullsing{
+    0%{transform: scale(1);}
+    100%{transform: scale(1.5);}
+    }
+    /* animacija za crn kvadrat */
+@keyframes swap-black {
+    from{
+        transform: translateX(100px);
+    }
+    to{
+        transform: translateX(-100px);
+        transform: scale(1.5);
+    }
+}
+/* animacija za violetov kvadrat */
+@keyframes swap-purple {
+    from{
+        transform: translateX(-100px);
+    }
+    to{
+        transform: translateX(100px);}}
+.box{
+    position: relative;
+    margin: 10%;
+    display: inline;
+}
+/* ne mi uspea goleminite da gi vnesam vo parent elementot */
+#red-box{
+    margin: 10px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    float: left;
+    overflow: hidden;
+    transition: 3s;
+}
+#red-box:hover{
+    width: 300px;
+}
+#green-box{
+    margin: 10px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    float: left;
+    overflow: auto;
+    transition: 3s;
+    
+}
+#green-box:hover{
+    transform: rotate(90deg);
+}
+#blue-box{
+    margin: 10px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    float: left;
+    overflow: visible;
+    transition: 3s;
+}
+#blue-box:hover{
+    width: 300px;
+}
+/* zavrsuva prvata zadaca */
+
+.navbar {
+    position: fixed;
+}
+ .navbar a {
+    background-color: gray;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    opacity: 1;
+  }
+  .hello{
+    position: fixed;
+}
+  .hello a{
+    background-color: black;
+    display: inline;
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 28px;
+    text-decoration: none;
+    font-size: 17px;
+    opacity: 0;
+  }
+  .navbar :hover{
+    opacity: 0;
+  }
+  .hello :hover{
+    opacity: 2;
+  }
+  .boxes{
+    padding-top: 250px;
+  }
+  #yellow-box{
+    margin: 10px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    float: left;
+    animation: rotate 5s linear 2 alternate;
+}
+#pink-box{
+    margin: 10px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    float: left;
+    animation: pullsing 1s infinite linear alternate;
+}
+#black-box{
+    margin: 10px;
+    border: 1px;
+    border-color: aquamarine;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    float: left;
+    animation: swap-black 2s linear 1 forwards;
+}
+#purple-box{
+    margin: 10px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    float: left;
+    animation: swap-purple 2s linear 1 forwards;
+}
