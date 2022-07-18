@@ -1,0 +1,38 @@
+/* animacija na crveniot kvadrat */
+@keyframes movement-right {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(300%);
+    }
+}
+/* animacija na zeleniot kvadrat */
+@keyframes rotate-right {
+    0%{
+        transform: translateX(0%)
+    }
+    100%{
+        transform: translateX(400%) rotate(360deg)
+    }
+}
+.red-box{
+    background-color: red;
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  margin: 20px;
+  animation-name: movement-right ;
+  animation-duration: 4s;
+  animation-delay: 3s;
+}
+.green-box{
+    background-color: green;
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  margin: 20px;
+  animation-name: rotate-right;
+  animation-duration: 4s;
+  animation-delay: 15s;
+}

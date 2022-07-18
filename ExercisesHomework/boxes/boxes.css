@@ -1,0 +1,61 @@
+.red-green-box{
+    display: inline;
+    position: relative;
+}
+.red-box{
+    float: right;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-top:5%;
+    margin-right: 61%;
+    border:1px ;
+    border-color: black;
+    border-style: solid;
+}
+.green-box{
+    float: right;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin-top:5%;
+    margin-right: -38%;
+    border:1px ;
+    border-color: black;
+    border-style: solid;
+}
+.blue-box{float: right;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border:1px ;
+    border-color: black;
+    border-style: solid;
+}
+.yellow-purple-box{
+    display: inline;
+    position: relative;
+}
+.yellow-box{
+    float: right;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    margin-right: 31%;
+    border:1px ;
+    border-color: black;
+    border-style: solid;
+}
+.purple-box{
+    float: right;
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    margin-right: 9%;
+    border:1px ;
+    border-color: black;
+    border-style: solid;s
+}
+/* gi podrediv kvadratite kako na slikata no so razlicni margini, i goleminite se so px, so % ne mi uspevashe */
