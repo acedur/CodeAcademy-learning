@@ -1,0 +1,22 @@
+
+.profile-img{
+    height: 50px;
+    width: 40px;
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+.name-location{
+  display: inline-block;
+}
+
+  img {
+    max-width: 100%
+}
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+footer{
+    margin-top: 50px;
+}
