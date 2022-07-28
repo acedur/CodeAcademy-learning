@@ -1,0 +1,68 @@
+.main-container{
+    width: 100%;
+    height: max-content;
+    padding: 2% 10% 5% 10%
+}
+
+.bg-image{
+  background-image: url('https://images.pexels.com/photos/3586966/pexels-photo-3586966.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  height: 500px;
+  border-radius: 50%;
+  border: 1px;
+  border-color: blue;
+}
+
+.bg-image-blue{
+    background-color: blue;
+    height: 500px;
+    width: 1000px;
+}
+
+.bg-image-text{
+  max-width: 900px;
+  text-align: center;
+}
+
+.bg-image-red{
+    background-color: red;
+    height: 500px;
+    width: 1000px;
+}
+
+.naslov-golem{
+  text-align: center;
+  margin-left: 45%;
+  border: 1px;
+  border-color: gray;
+  width: 150px;
+  height: 75px;
+  border-radius: 50%;
+  border-style: solid;
+}
+
+.paragrafi-tri{
+  display:flex;
+}
+
+.oglas{
+  border: 1px;
+  border-color: gray;
+  border-radius: 5%;
+  border-style: solid;
+  margin: 2px;
+  padding: 2px;
+}
+
+.paragrafi-dva{
+  display:flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
