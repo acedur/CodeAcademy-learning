@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <form name="myForm">
+        <input class="field" type="text" onblur="check()" oninput="empty()" />
+        <div class="error"></div>
+        <br />
+        <input class="field" type="text" onblur="check()" oninput="empty()" />
+        <div class="error"></div>
+        <br />
+        <input class="field" type="text" onblur="check()" oninput="empty()" />
+        <div class="error"></div>
+        <br />
+        <input class="field" type="text" onblur="check()" oninput="empty()" />
+        <div class="error"></div>
+        <br />
+        <input class="field" type="text" onblur="check()" oninput="empty()" />
+        <div class="error"></div>
+        <br />
+        <button onclick="alertForm()">SUBMIT</button>
+      </form>
+    </div>
+    <br />
+    <div>
+      <span id="counter"></span>
+      <button onclick="incrementClick()">Click Me</button>
+      <button onclick="resetCounter()">Reset</button>
+    </div>
+    <script src="/eventHandlersListenersBinding.js"></script>
+  </body>
+</html>
