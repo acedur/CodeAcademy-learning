@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <li class="nav"><a href="/home.html">Home</a></li>
+        <li class="nav"><a href="/about.html">About</a></li>
+        <li class="nav">
+          <a href="/contact.html" style="color: red">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div>
+        <form id="myForm">
+            <label> First Name :</label>
+            <input type="text" name="fname" /><br>
+            <label> Last Name :</label>
+            <input type="text" name="lname" /><br>
+            <label> Email :</label>
+            <input type="text" name="email" /><br>
+            <label> Gender :</label>
+            <label> Male</label>
+            <input type="radio" name="gender" value="male" />
+            <label> Female</label>
+            <input type="radio" name="gender" value="female"/><br>
+            <label> Phone Number :</label>
+            <input type="text" name="phoneNum" /><br>
+            <label> Address :</label>
+            <input type="text" name="address" /><br>
+            <input
+              type="button"
+              value="Submit"
+              onclick="validateForm(fname.value, lname.value, email.value, gender.value, phoneNum.value, address.value)"
+            />
+    
+    </div>
+    <script src="/homeworkEvents.js"></script>
+  </body>
+</html>
