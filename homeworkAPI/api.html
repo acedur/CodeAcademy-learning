@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <form name="myForm">
+        <label> First Name : </label>
+        <input type="text" id="fname" pattern="[a-z]{1,}" />
+        <p id="errorFN"></p>
+        <br />
+        <label> Last Name : </label>
+        <input type="text" id="lname" pattern="[a-z]{1,}" />
+        <p id="errorLN"></p>
+        <br />
+        <label> Email : </label>
+        <input
+          type="email"
+          id="email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+        />
+        <p id="errorEmail"></p>
+        <br />
+        <label>Password :</label>
+        <input
+          type="password"
+          id="pass"
+          pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        />
+        <p id="errorPass"></p>
+        <br />
+        <label> Phone Number : </label>
+        <input type="tel" id="phoneNum" pattern="[0-9]{9,}" />
+        <p id="errorPhoneNum"></p>
+        <br />
+        <button type="submit" onclick="validateForm()">SUBMIT</button>
+      </form>
+    </div>
+    <script src="/api.js"></script>
+  </body>
+</html>
