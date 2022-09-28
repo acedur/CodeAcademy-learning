@@ -1,0 +1,129 @@
+body {
+    display: flex;
+}
+
+#friends-stories {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    }
+
+.story{
+    margin: 10px;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+
+
+#friends-stories > div > div > img{
+    border: 1px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 50%;
+}
+
+.article-img{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    background-color:steelblue ;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10%;
+    margin: 10px;
+}
+article
+{display: flex;}
+
+#write-comment{
+    display: flex;
+}
+
+.comment{
+    display: flex;
+    justify-content: start;
+}
+
+#live-img-bg{
+    border-radius: 50%;
+}
+
+.date{
+    padding: 10px;
+    background-color: slateblue;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.article-title:before{
+    content: "TITLE";
+    padding: 10px;
+}
+
+.article-header{
+    display: flex;
+}
+
+.date-month{
+    margin: 0;
+}
+
+.date-day{
+    margin: 0;
+}
+
+.article-details{
+    padding: 20px;
+}
+
+#live-img-bg{
+    display: flex;
+    height: 400px;
+    width: 200px;
+    background-color:steelblue ;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10%;
+    margin: 10px;
+}
+
+#notifications{
+    height: 20px;
+    width: 20px;
+    background-color: darkslategray;
+}
+
+#logedUser:before{
+    content: "My Name";
+    margin: 10px;
+}
+
+#userDetails{
+display: flex;
+}
+
+li{
+    list-style-type: none;
+padding-left: 0px;
+}
+
+ul{
+    padding: 0;
+}
+
+#comUser{
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#comPar{
+    margin: 0;
+}
+
+.comment-details{
+    margin: 10px;
+}
